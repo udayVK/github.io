@@ -1,0 +1,185 @@
+body {
+    width: 85%;
+    margin: auto;
+}
+
+*::selection {
+    background-color: #f4c20d;
+}
+
+::-webkit-scrollbar {
+    background-color: #4885ed;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #db3236;
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3cba54;
+}
+
+.google-toprow {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.google-toprow-icon {
+    margin: 0 10px;
+    color: rgba(0, 0, 0, .87);
+    font-size: small;
+    text-decoration: none;
+}
+
+.google-toprow-icon:hover {
+    text-decoration: overline;
+}
+
+.google-toprow-icon {
+    transition: text-decoration 2s;
+}
+
+.google-toprow-btn {
+    color: white;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.google-font {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.google-font-letter {
+    font-family: system-ui;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.google-input-row {
+    display: flex;
+    height: 45px;
+    width: 500px;
+    border: 1px transparent solid;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 0px #c1b9b9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.google-search-lens {
+    width: 25px;
+    height: 25px;
+}
+
+.google-input {
+    border: none;
+}
+
+.google-input:focus {
+    border: none;
+    outline: none;
+}
+
+.google-mic {
+    width: 25px;
+    height: 25px;
+    cursor: not-allowed;
+}
+
+.shortcuts {
+    display: flex;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom:  180px;
+    justify-content: space-around;
+}
+
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shortcuts .shortcut-icon {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+}
+
+.shortcuts .shortcut-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.shortcut span {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    margin-top: 5px;
+}
+
+.shortcut svg {
+    width: 40px;
+    height: 40px;
+}
+
+/* styles for prject section */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.project,
+.certification {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    /* border: 5px grey solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.project .name {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project .description {
+    color: #5f6368;
+}
